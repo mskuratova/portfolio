@@ -1,0 +1,15 @@
+.contacts {
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form {
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid;
+    margin: auto;
+}

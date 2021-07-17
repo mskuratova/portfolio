@@ -1,0 +1,17 @@
+.worksBlock {
+    height: 100vh;
+    background-color: goldenrod;
+}
+
+.worksContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.works {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

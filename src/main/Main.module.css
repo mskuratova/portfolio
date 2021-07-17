@@ -1,0 +1,13 @@
+.mainBlock {
+    height: 100vh;
+    background-color: rosybrown;
+}
+.text {
+    width: 300px;
+    background-color: azure;
+}
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: azure;
+}
