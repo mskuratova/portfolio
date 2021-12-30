@@ -1,16 +1,24 @@
 .work {
     width: 250px;
-    background-color: gray;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+.h3 {
+    margin-bottom: 15px;
+    line-height: 30px;
+    font-family: Roboto mono, monospace;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
 .icon{
     height: 60px;
     width: 60px;
-    background-color: dimgrey;
+    background-color: #555;
 }
 .description {
-
+    font-family: 'Roboto', sans-serif;
 }

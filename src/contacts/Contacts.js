@@ -8,11 +8,12 @@ function Contacts () {
         <div className={`${styleContainer.container} ${style.contacts}`}>
             <h4>Contact</h4>
             <form className={style.form}>
-                <input/>
-                <input/>
+                <input type="text"/>
+                <input type="text"/>
                 <textarea/>
+                <button type="submit">Send</button>
             </form>
-            <button>Send</button>
+
 
 
         </div>

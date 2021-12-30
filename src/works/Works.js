@@ -7,10 +7,10 @@ function Works() {
     return (
         <div className={style.worksBlock}>
             <div className={'${styleContainer.container} ${style.worksContainer}'}>
-                <h2>Works</h2>
+                <h2>My projects_</h2>
                 <div className={style.works}>
-                    <Work title={"Hi"} description={"H"}/>
-                    <Work title={"Hello"} description={"H"}/>
+                    <Work title={"OLLLLL"} description={"Hkgvkuvyjyxtrhrzsgzrwsxtr"}/>
+                    <Work title={"Hello"} description={"Houlctjtxedhzwsjyrfbilmp;k'op["}/>
                 </div>
             </div>
         </div>
