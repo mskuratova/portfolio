@@ -1,13 +1,27 @@
 .mainBlock {
     min-height: 100vh;
-    background-color: rosybrown;
+    background:  url("Photo/2022-01-08 16.50.49.jpg") center;
+    opacity: 0.3;
+    box-sizing: inherit;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 .text {
-    width: 300px;
-    background-color: azure;
-}
-.photo {
+    color: #fff;
     width: 300px;
     height: 400px;
+    font-family: 'Roboto', monospace;
+    text-align: left;
+}
+.photo {
+    width: 500px;
+    height: 600px;
     background-color: azure;
+    background-image: url("Photo/2022.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+}
+.bold {
+    font-weight: bold;
 }

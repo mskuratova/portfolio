@@ -1,6 +1,6 @@
 .skillsBlock {
     min-height: 100vh;
-    background-color: darkseagreen;
+    /*background-color: darkseagreen;*/
 }
 
 .skillsContainer {
@@ -9,7 +9,14 @@
 }
 
 .title {
-    background-color: darkgray;
+    /*background-color: #6d56c1;*/
+    font-family: 'Roboto', monospace;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
 }
 
 .skills {

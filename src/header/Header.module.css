@@ -1,7 +1,8 @@
 .header {
     min-height: 80px;
-    background-color: aquamarine;
+    background-color: #6d56c1;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    opacity: 0.8;
 }

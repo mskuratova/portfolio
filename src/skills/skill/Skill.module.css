@@ -1,10 +1,16 @@
 .skill {
-    width: 250px;
-    background-color: gray;
+    /*width: 250px;*/
+    /*background-color: gray;*/
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    /*text-align: center;*/
+    margin-top: 30px;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: inherit;
+
 }
 .icon{
     height: 60px;
@@ -13,4 +19,27 @@
 }
 .description {
 
+}
+.progress {
+    height: 6px;
+    margin-bottom: 30px;
+    display: flex;
+    overflow: hidden;
+    font-size: .75rem;
+    line-height: 1rem;
+    text-align: center;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    box-sizing: inherit;
+}
+.progressbar {
+    width: 80%;
+    background-color: #6d56c1;
+    height: 1rem;
+    line-height: 1rem;
+    color: #fff;
+    transition: width .6s ease;
+}
+.span {
+    width:50%;
 }
