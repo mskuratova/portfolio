@@ -1,8 +1,11 @@
 .header {
     min-height: 80px;
-    background-color: #6d56c1;
+    /*background-color: #6d56c1;*/
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    opacity: 0.8;
+    opacity: 1;
+    background: linear-gradient(54deg,
+    rgba(74, 76, 179, .95) 34%,
+    hsla(0, 34%, 71%, .95));
 }

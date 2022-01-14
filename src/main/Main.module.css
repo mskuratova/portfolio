@@ -1,18 +1,34 @@
+.mainBlock::before {
+    background: linear-gradient(54deg,
+    rgba(74, 76, 179, .95) 34%,
+    hsla(0, 34%, 71%, .95));
+    content: "";
+    z-index: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
 .mainBlock {
-    min-height: 100vh;
-    background:  url("Photo/2022-01-08 16.50.49.jpg") center;
-    opacity: 0.3;
+    min-height: 600px;
+    background: url("Photo/2022-01-08 16.50.49.jpg") center;
+    background-repeat: no-repeat;
     box-sizing: inherit;
     margin-right: -15px;
     margin-left: -15px;
 }
+
 .text {
     color: #fff;
-    width: 300px;
+    width: 500px;
     height: 400px;
     font-family: 'Roboto', monospace;
     text-align: left;
+    z-index: 1;
 }
+
 .photo {
     width: 500px;
     height: 600px;
@@ -22,6 +38,7 @@
     background-position: center;
     opacity: 0.9;
 }
+
 .bold {
     font-weight: bold;
 }
